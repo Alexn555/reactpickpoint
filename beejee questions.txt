@@ -1,0 +1,5 @@
+
+
+  on update   /edit/id=$id?developer=Name
+  Запрос из постороннего источника заблокирован: Политика одного источника запрещает чтение удаленного ресурса на https://uxcandy.com/~shapoval/test-task-backend/edit/id=6166&developer=Alex. 
+  (Причина: Не найден метод в заголовке CORS «Access-Control-Allow-Methods»).[Подробнее]

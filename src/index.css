@@ -1,0 +1,11 @@
+.error {
+  color: #9f3a38
+}
+
+.volume {
+	padding: 3px 10px 0 10px;
+}
+
+.volume :hover {
+	cursor: hand;
+}

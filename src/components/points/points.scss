@@ -1,0 +1,33 @@
+.points-wrapper {
+  border: 1px dashed #ccc;
+  margin-bottom: 20px;
+}
+
+.points-container {
+  border: 1px dashed #ccc;
+}
+
+.points-total {
+  @extend .points-container;
+  line-height: 30px;
+}
+
+.itemPickCl{
+  padding: 20px 25px 20px 25px;
+  background: #f6f6f6;
+  border: 1px dashed #cccccc;
+  margin: 10px;
+}
+
+.picks-list {
+  display: block;
+  background: #f9f9f9;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.picks-item {
+  display: inline-block;
+  @extend .itemPickCl;
+  padding: 5px 10px 5px 10px;
+}

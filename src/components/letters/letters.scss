@@ -1,0 +1,67 @@
+
+.header-class {
+    background: #f6f6f6;
+    position: sticky;
+    top: 0;
+}
+
+th { /* Chrome hack */
+    background: #f6f6f6;
+    position: sticky;
+    top: 0;
+}
+
+.noSelectText {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.boxShadow {
+  -webkit-box-shadow: -1px -5px 26px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -5px 26px -11px rgba(0,0,0,0.75);
+  box-shadow: -1px -5px 26px -11px rgba(0,0,0,0.75);
+}
+
+.boxShadow2 {
+ -webkit-box-shadow: -1px -5px 26px -20px rgba(0,0,0,0.75);
+ -moz-box-shadow: -1px -5px 26px -20px rgba(0,0,0,0.75);
+ box-shadow: -1px -5px 26px -20px rgba(0,0,0,0.75);
+}
+
+
+.letters-container {
+	background: #fff;
+}
+
+
+.itemPickCl{
+    padding: 20px 25px 20px 25px;
+    background: #f6f6f6;
+    border: 1px dashed #cccccc;
+    margin: 10px;
+	@extend .boxShadow;
+}
+
+.letters {
+    display: inline-block;
+}
+
+.letters-item {
+    display: inline-block;
+    @extend .itemPickCl;
+    @extend .noSelectText;
+}
+.letters-item:hover {
+    cursor: pointer;
+}
+.letters-item-active {
+    cursor: pointer;
+    display: inline-block;
+    @extend .itemPickCl;
+    background: lightblue;
+}
+
+

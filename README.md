@@ -9,6 +9,8 @@ This a basic react table workbook
 cd reactspeedtable
 npm install
 
+Demo: http://norwaydict.com/reactpickpoint
+
 Main plot
  Uses classical redux pattern, with store and reducers.
  Uses axios for backend http client to get backend information.
